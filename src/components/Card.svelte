@@ -10,7 +10,7 @@
     <p class="author">{author.displayname}</p>
   </div>
   <footer>
-    {#each card.colors as color (color.percent)}
+    {#each card.colors as color}
       <div style={`background: ${color.css3}`}></div>
     {/each}
   </footer>
