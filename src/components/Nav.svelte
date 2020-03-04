@@ -5,6 +5,7 @@
 		<li><a class="{ isActive('German') }" href="/german">German</a></li>
 		<li><a class="{ isActive('French') }" href="/french">French</a></li>
 		<li><a class="{ isActive('Spanish') }" href="/spanish">Spanish</a></li>
+		<li><a class="{ isActive('Italian') }" href="/italian">Italian</a></li>
 		<li><a class="{ isActive('Norwegian') }" href="/norwegian">Norwegian</a></li>
 		<li><a class="{ isActive('Dutch') }" href="/dutch">Dutch</a></li>
 	</ul>

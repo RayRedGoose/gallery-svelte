@@ -9,8 +9,8 @@
 	let arts = [];
 
 	onMount(async () => {
-		const { data, pages } = await getArts(9, 'Dutch');
-		arts = data.slice(1, 4);
+		const { data } = await getArts(1, 'Belgian');
+		arts = data.slice(2, 4);
 	});
 </script>
 
@@ -22,6 +22,11 @@
 	{/each}
 </main>
 
+<aside>
+	<h3>Find your color inspiration</h3>
+	<h4>in European culture's Arts</h4>
+</aside>
+
 <style>
 	main {
 		column-count: 2;
@@ -29,5 +34,16 @@
 		width: 50vw;
 		max-height: 90vh;
 		overflow: hidden;
+	}
+	aside {
+		position: absolute;
+		top: 40%; right: 4rem;
+	}
+	h3 {
+		font-size: 48px;
+	}
+	h4 {
+		font-size: 24px;
+		font-weight: lighter;
 	}
 </style>

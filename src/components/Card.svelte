@@ -19,7 +19,7 @@
 <style>
 	section {
 		break-inside: avoid;
-		margin-bottom: 2rem;
+		margin-bottom: 2.5rem;
     position: relative;
 	}
   div {
